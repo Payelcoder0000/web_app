@@ -1,0 +1,74 @@
+body
+{
+	background:url(pp.jpg);
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+}
+
+.header
+{
+height:100px;
+top:0%;
+left:0%;
+padding:0;
+margin:0;
+}
+.header a:link,visited,hover
+{
+text-decoration:none;
+top:0px;;
+float:right;
+}
+.header input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	font-weight:bold;
+	background: black;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.header input[type="submit"]:hover
+{
+	border-color:black;
+	background: #efed40;
+	color: #262626;
+}
+#view_table
+{
+border-style:none;
+border-color:none;
+margin:10px;
+width:1000px;
+}
+#view_table th
+{
+background-color:light gray;
+text-align:center;
+font-size:20px;
+}
+#view_table td
+{
+background-color:pink;
+text-align:center;
+}
+#view input[type="submit"]
+{
+	height: 30px;
+	color: black;
+	font-size: 16px;
+	font-weight:bold;
+	background: white;
+	cursor: pointer;
+	border-radius: 20px;
+}
+#view input[type="submit"]:hover
+{
+	border-color:black;
+	background: #efed40;
+	color: #262626;
+}

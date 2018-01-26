@@ -1,0 +1,47 @@
+#banner
+{
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #dedede;    
+    height: 170px;
+}
+p
+{
+font-family:calibry;
+font-weight: bold;
+font:1500px;
+}
+.Box
+{
+	position: fixed;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 450px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.Box p
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	left:200px;
+	font:200px;
+	color: white;
+}
+.Box h2
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+	left:200px;
+	font:900px;
+	text-shadow: 0.1em 0.1em 7px black;
+	color: white;
+}
+
